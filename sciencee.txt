@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>Form Uygulamaları</title>
+<meta charset="utf-8">
+<p style="color:red; background-color:green; font-size:32px;"> Craizy İN Science Arama Motoru </p>
+<input type="radio" name="radiobutton" value="radiobutton" id="radiobutton"> <label for="radiobutton">Eş Anlamlı Kelimeler</label>
+<input type="radio" name="radiobutton" value="radiobutton" id="radiobutton"> <label for="radiobutton">Kelimeler Arası Hiyerarşi</label>
+ <input type="radio" name="radiobutton" value="radiobutton" id="radiobutton"> <label for="radiobutton">Parça bütün İlişkisi</label>
+<ul>
+<ul style="color:green; background-color:yellow; list-style-type:none;">
+<FORM ACTION="kaydet.html">
+ Program<BR>
+ 
+ <INPUT TYPE="checkbox" NAME="prg"
+        VALUE="türkçe"CHECKED>türkçe<BR>
+ <INPUT TYPE="checkbox" NAME="prg"
+        VALUE="ingilizce" >ingilizce<BR>
+ <INPUT TYPE="checkbox" NAME="prg"
+        VALUE="almanca">almanca<BR>
+ <FORM ACTION="URL">
+ <BR> <BR>Kelime Anlamı <SELECT NAME="anlam">
+         <OPTION SELECTED> Mecaz Anlam
+         <OPTION> Gerçek Anlam
+         
+ </SELECT>
+ <BR>
+ 
+ </FORM>
+
+ </FORM>
+</head>
+<body>
+<form action="kaydet.html" method="POST">
+ 
+Kelime giriniz: 
+<input type="text" name="kelime giriniz"> <input type="submit" NAME="sip" VALUE="kelime Gönder"> <FORM ENCTYPE="multipart/form-data"
+      ACTION="kaydet.html"
+ENCTYPE="text/plain">
+<br><br>
+Cümle giriniz:
+<input type="text" name="Cümle giriniz"> <input type="submit" NAME="bil" VALUE="Cümle Gönder"><br>
+ Kendi klasörünüzden kelime ve cümleleri bizlerle paylaşabilirsiniz. <INPUT TYPE=file ACCEPT="/etudio/*">
+
+<p style="color:pink; background-color:purple; list-style-type:none; font-size:32px;"> Aramaları sıfırla <INPUT TYPE="reset" VALUE="Sıfırla"></p> 
+</form>
+<p style= font-size:32px;"> Sayfamızı nasıl Buldunuz ? 0<INPUT type=range name="oranla" MIN=0 MAX=10 VALUE=5 STEP=1>10
+<FORM ACTION="kaydet.html">
+ Eklemek istedikleriniz<BR>
+ <form>
+
+<textarea rows="10" cols="40">
+
+</textarea>
+<INPUT TYPE="reset" VALUE="Sıfırla"></p> 
+</form>
+
+ 
+ <BR><BR>
+       <FORM ACTION="kaydet.html">
+ <INPUT NAME="image" TYPE="IMAGE"
+        SRC="../images/bulut.jpg" ALIGN=TOP>
+ </FORM> <BR><BR>
+<FORM ENCTYPE="multipart/form-data"
+      ACTION="mailto:edam.glr@gmail.com"
+ENCTYPE="text/plain">
+      
+Bize yollamak istediğiniz örnek kodlar:<BR>
+  <INPUT NAME="message"
+         TYPE="file"> <BR> <BR>
+  <INPUT TYPE="submit"
+         VALUE=" Gönder"><BR>
+<a href="#program">YUKARI ÇIK</a>
+<h2 id="yukari">Craizy İN Science Arama Motoru </h2>
+</FORM>
+ </FORM>
+</body>
+</html>
